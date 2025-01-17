@@ -1,0 +1,11 @@
+{
+	"scripts": {
+		"start": "concurrently \"npm run start:be\" \"npm run start:fe\"",
+		"start:be": "cd backend && npx ts-node src/server.ts",
+		"start:fe": "cd frontend && npm run dev"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"concurrently": "^9.1.2"
+	}
+}
