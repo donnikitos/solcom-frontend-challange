@@ -7,9 +7,10 @@ Welcome to the frontend code challenge! In this task, you will build a frontend 
 ## Setup
 
 1. `npm install`
-1. `cd backend && npm install`
-1. `cd frontend && npm install`
-1. `npm run start`
+2. `cd backend && npm install`
+3. `cd frontend && npm install`
+4. `npm run start`
+5. Open browser on `http://localhost:3001`
 
 ## Provided Resources
 
